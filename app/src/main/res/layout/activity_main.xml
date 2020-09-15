@@ -5,45 +5,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:layoutDirection="rtl"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv1"
-        android:layout_centerInParent="true"
-        android:textSize="30sp"
-        android:text="View 1"
+        android:textColor="#ffffff"
+        android:background="#F54257"
+        android:id="@+id/tvRed"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:textSize="30sp" />
     <TextView
-        android:layout_toStartOf="@id/tv1"
-        android:layout_above="@id/tv1"
-        android:id="@+id/tv2"
-        android:textSize="30sp"
-        android:text="View 2"
+        android:layout_below="@id/tvRed"
+        android:textColor="#ffffff"
+        android:background="#9CCC65"
+        android:id="@+id/tvGreen"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:textSize="30sp" />
     <TextView
-        android:layout_toEndOf="@id/tv1"
-        android:layout_above="@id/tv1"
-        android:id="@+id/tv3"
-        android:textSize="30sp"
-        android:text="View 3"
+        android:layout_below="@id/tvGreen"
+        android:textColor="#ffffff"
+        android:background="#42A5F5"
+        android:id="@+id/tvBlue"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:textSize="30sp" />
     <TextView
-        android:layout_toStartOf="@id/tv1"
-        android:layout_below="@id/tv1"
-        android:id="@+id/tv4"
-        android:textSize="30sp"
-        android:text="View 4"
+        android:layout_below="@id/tvBlue"
+        android:textColor="#ffffff"
+        android:background="#FFA726"
+        android:id="@+id/tvOrange"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Orange"
+        android:textSize="30sp" />
     <TextView
-        android:layout_toEndOf="@id/tv1"
-        android:layout_below="@id/tv1"
-        android:id="@+id/tv5"
-        android:textSize="30sp"
-        android:text="View 5"
+        android:layout_below="@id/tvOrange"
+        android:textColor="#ffffff"
+        android:background="#BCBAB7"
+        android:id="@+id/tvGray"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Gray"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_below="@id/tvGray"
+        android:textColor="#ffffff"
+        android:background="#AD55E8"
+        android:id="@+id/tvPink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pink"
+        android:textSize="30sp" />
+
+
 </RelativeLayout>
